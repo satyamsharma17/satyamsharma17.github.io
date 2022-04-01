@@ -102,6 +102,10 @@
      max-width: 100%;
      height: auto;
      vertical-align: middle;
+     margin-top: 10%;
+     margin-bottom: 10%;
+     border-radius: 10px;
+     
    }
    ul
    {
@@ -312,6 +316,8 @@
     .home .intro img
     {
       margin-bottom: var(--m-1);
+      height: 50%;
+      width: 50%;
     }
     .home .intro .social-icons
     {
@@ -838,7 +844,7 @@
       height: 0.375rem;
       border-radius: .5rem;
     }
-    /*========== Blog ==========*/
+    /* Blog */
     .blog-item
     {
       flex: 0 0 33.33%;
@@ -925,7 +931,7 @@
     {
       display: none;
     }
-    /*========== Contact ==========*/
+    /* Contact */
     .contact-box
     {
       flex: 0 0 40%;
@@ -992,7 +998,7 @@
       height: 100%;
       padding: 1rem 1rem 1rem 0;
       background: none;
-      color: #fff;
+      color: rgb(115, 115, 115);
       outline: none;
       border: none;
       z-index: 1;
@@ -1020,7 +1026,7 @@
       z-index: 10;
       color: var(--color-primary);
     }
-    /*========== Footer ==========*/
+    /* Footer */
     .footer 
     {
       padding: 40px 0;
@@ -1029,7 +1035,7 @@
     {
       text-align: center;
     }
-    /*========== Customize Theme ==========*/
+    /* Customize Theme */
     .customize-theme
     {
       background: rgba(0,0,0,.4);

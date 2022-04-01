@@ -259,3 +259,7 @@ Bg3.addEventListener('click', () => {
   Bg1.classList.remove('active');
   changeBG();
 })
+
+function resetForm() {
+  document.getElementById("contactform").reset();
+}
